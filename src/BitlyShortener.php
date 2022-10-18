@@ -36,7 +36,7 @@ class BitlyShortener
         $response = curl_exec($curl);
         curl_close($curl);
         $response = json_decode($response) ;
-        return isset($response->link) ? $response->link:'' ;
+        return isset($response->link) ? $response->link:'Check URL Is Correct OR ON' ;
 
     }
 }
