@@ -1,0 +1,28 @@
+{
+    "name": "ahmed/test-package",
+    "description": "Test Package",
+    "autoload": {
+        "psr-4": {
+            "Ahmed\\TestPackage\\": "src/"
+        },
+        "files": [
+             "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "ahmedZread123"
+        }
+    ],
+    "require": {} ,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ahmed\\TestPackage\\BitlyServiceProvider"
+            ],
+            "aliases": {
+                "Bitly": "Ahmed\\TestPackage\\BitlyShortener"
+            }
+        }
+    },
+}
