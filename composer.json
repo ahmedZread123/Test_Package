@@ -3,7 +3,7 @@
     "description": "Test Package",
     "autoload": {
         "psr-4": {
-            "Ahmed\\TestPackage\\": "src/"
+            "TestPackage\\": "src/"
         },
         "files": [
              "src/helpers.php"
@@ -18,10 +18,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ahmed\\TestPackage\\BitlyServiceProvider"
+                "TestPackage\\BitlyServiceProvider"
             ],
             "aliases": {
-                "Bitly": "Ahmed\\TestPackage\\BitlyShortener"
+                "Bitly": "TestPackage\\BitlyShortener"
             }
         }
     }
