@@ -1,5 +1,5 @@
 {
-    "name": "ahmed/test-package",
+    "name": "Zread/test-package",
     "description": "Test Package",
     "autoload": {
         "psr-4": {
